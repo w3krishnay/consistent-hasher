@@ -13,17 +13,7 @@ The goal is to design and implement a **ConsistentHasher** component that can:
 
 ---
 
-# 1. Why Exercise 2?
-
-Out of the three exercises, this one is:
-
-- The easiest to implement end-to-end in the time available
-- Demonstrates system design skills
-- Shows understanding of distributed systems
-- Maps directly to real AI infrastructure patterns (vector DB, embedding stores, caching layers, artifact sharding)
-- Requires no frontend, backend, or concurrency handling
-
-This README covers:
+# 1. This README covers:
 
 - **Phase 1: Design**
 - **Phase 2: Implementation**
@@ -179,13 +169,6 @@ src/consistentHasher.test.ts
 npm install
 ```
 
-If starting from scratch:
-
-```bash
-npm install --save-dev typescript ts-node @types/node
-npx tsc --init
-```
-
 ---
 
 ## 4.2 Run the demo
@@ -260,6 +243,3 @@ The `ConsistentHasher` implemented here is suitable as a foundational building b
 - Model artifact and checkpoint storage systems  
 - Multi-tenant feature stores  
 
----
-
-# 🎉 End of README
